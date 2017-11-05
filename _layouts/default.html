@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh">
+	<head>
+		<title>{{ site.title }}</title>
+		<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="{{ site.author.name }}">
+		<meta name="description" content="{{ site.description }}">
+		<meta http-equiv="content-language" content="{{ site.locale }}">
+		<meta name="generator" content="Jekyll v{{ jekyll.version }}">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+		<link rel="stylesheet" href="/css/main.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+		<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+		<script src="https://use.typekit.net/tbu6cdc.js"></script>
+		<script>try{Typekit.load({ async: true });}catch(e){}</script>
+    {% seo %}
+    {% feed_meta %}
+	</head>
+	<body>
+		<header></header>
+		{{ content }}
+		<footer></footer>
+		<script src="js/main.js"></script>
+	</body>
+</html>
+
